@@ -91,13 +91,13 @@ class Game extends Component {
   render() {
     const { dice, locked, rollsLeft, isRolling, scores } = this.state;
     return (
-      <div className="container py-5">
+      <div className="container mt-2">
         <div className="row">
           <div className="Game col-10 mx-auto col-md-8 col-lg-6">
             <header className="Game-header">
               <h1 className="App-title">Yahtzee!</h1>
 
-              <section className="Game-dice-section">
+              <section className="Game-dice-section mx-2">
                 <Dice
                   dice={dice}
                   locked={locked}
